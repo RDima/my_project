@@ -1,0 +1,138 @@
+.page {
+	width: 1700px;
+	margin:0 auto;
+}
+.wr-header {
+	/*position: fixed;*/
+	font-family: 'Lato', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 25px;
+	background: #FFFFFF;
+	height:93px;
+	width: 1700px;
+}
+
+.wr-header .logo {
+	display: inline-block;
+	float: left;
+	padding-left: 0;
+}
+li {
+ 	display: inline-block;
+ 	margin-left: -4px;
+ }
+.menu {
+    padding-right: 0;
+}
+.menu ul {
+	padding-top: 12px;
+	padding-bottom: 32px;
+	margin-bottom: 0;
+	margin-top: 5px;
+    margin-left: 18px;
+	list-style-type: none;
+}
+.menu a {
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	border-radius: 1px; 
+	font-size: 13.5px;
+	color: #000000;
+}
+.menu a:hover {
+	background-color: #ffbb42;
+	color: #FFFFFF;
+}
+
+/*BANNER*/
+.wr-banner {
+	padding-top: 107px;
+	padding-bottom: 132px;
+	height: 589px;
+	background: #709dca;
+}
+.wr-banner .banner_text{
+    padding-right: 56px;
+}
+.wr-banner h1 {
+	margin-top: 0;
+    margin-bottom: 0px;
+    padding-right: 51px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    letter-spacing: -0.9px;
+    font-family:'Gotham Black','sans-serif';
+}
+.wr-banner p {
+    margin-bottom: 33px;
+    padding-right: 52px;
+    color: #FFFFFF;
+    text-align: center;
+    font-family:'Open Sans','sans-serif';
+    letter-spacing: 0.6px;
+}
+.banner_form form{
+	position: relative;
+    margin-left: 26px;
+    font-family:'Open Sans','sans-serif';
+    font-size: 13px;
+
+}
+.banner_form form img{
+	position: absolute;
+	margin-top: 15px;
+    margin-left: 12px;
+}
+.banner_form form img:nth-child(5) {
+	position: absolute;
+	margin-top: 15px;
+    margin-left: 40px;
+}
+.banner_form form input {
+	width: 282px;
+	height: 47px;
+	padding-left: 37px;
+	border-radius: 2px;
+	margin-left: 5px;
+}
+.banner_form button{
+	width: 213px;
+	height: 47px;
+	background-color: #ffbb42;
+	color: #FFFFFF;
+	border: 0;
+	border-radius: 2px;
+	margin-left: 5px;
+}
+.mac figure img {
+	margin-top: 66px;
+	padding-left: 50px;
+}
+
+/*Service*/
+.wr-service {
+	height: 924px;
+	padding-top: 199px;
+	padding-bottom: 160px;
+	background: #006dff;
+	font-family:'Open Sans','sans-serif';
+	font-size: 16px;
+ }
+.wr-service .service{
+	padding-left: 10px;
+}
+.wr-service h2 {
+  	font-family:'Gotham Black','sans-serif';
+  	margin: 0;
+  	padding-left: 73px;
+    letter-spacing: -0.8px;
+ }
+
+.wr-service p{
+  	margin: 0;
+}
+.slider img{
+	width:50px;
+	height:48px;
+}
